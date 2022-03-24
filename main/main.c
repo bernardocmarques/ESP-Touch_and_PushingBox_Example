@@ -20,6 +20,7 @@ const static char* TAG = "MAIN";
 
 
 
+
 void app_main(void) {
 
 //    delete_saved_wifi();
@@ -36,7 +37,7 @@ void app_main(void) {
         wifi_config_t wifiConfig;
 
         if (get_saved_wifi(&wifiConfig) == ESP_OK && get_device_id(&deviceID) == ESP_OK ) {
-            connect_to_wifi(wifiConfig);
+            if(!connect_to_wifi(wifiConfig)) esp_touch_helper(&deviceID);
         } else {
             esp_touch_helper(&deviceID);
         }
