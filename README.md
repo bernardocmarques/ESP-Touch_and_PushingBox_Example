@@ -5,6 +5,10 @@
 
 This project is a simple example of the integration between [ESP-Touch v2 application](https://github.com/EspressifApp/EsptouchForAndroid/releases/tag/v2.0.0/esptouch-v2.0.0.apk) and the [PushingBox API](https://www.pushingbox.com/api.php).
 
+## Compile the project
+
+This source code needs to be compiled using the Espressif IoT Development Framework (esp-idf). Documentation and download here: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/
+
 ## Configure the project
 
 ```
