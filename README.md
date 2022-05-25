@@ -7,7 +7,7 @@ This project is a simple example of the integration between [ESP-Touch v2 applic
 
 ## Compile the project
 
-This source code needs to be compiled using the Espressif IoT Development Framework ([esp-idf v.4.3.2](https://docs.espressif.com/projects/esp-idf/en/v4.3.2/esp32/index.html)). Documentation and download here: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/
+This source code needs to be compiled using the Espressif IoT Development Framework ([esp-idf v.4.3.2](https://docs.espressif.com/projects/esp-idf/en/v4.3.2/esp32s2/index.html)). Documentation and download here: https://docs.espressif.com/projects/esp-idf/en/v4.3.2/esp32s2
 
 ## Configure the project
 
